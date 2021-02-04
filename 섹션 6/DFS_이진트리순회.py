@@ -17,6 +17,7 @@ def DFS(v):
     if v>7:
         return 
     else:
+        #stack 그려서 확인해보기
         #print(v,end = ' ') #전위순회 : 함수 본연의 일(출력) - 호출하기 전에 작업을 수행함
         DFS(v*2) #왼쪽 노드 호출
         #print(v,end = ' ') #중위순회 : 부모가 중간에서 순회
