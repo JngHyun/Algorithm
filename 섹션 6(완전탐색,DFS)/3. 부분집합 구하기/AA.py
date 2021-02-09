@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('/Users/pjh/Desktop/박정현/python_algorithm/섹션 6/3. 부분집합 구하기/in2.txt','r')
+sys.stdin = open('/Users/pjh/Desktop/박정현/python_algorithm/섹션 6(완전탐색,DFS)/3. 부분집합 구하기/in1.txt','r')
 
 
 def DFS(x):
