@@ -9,10 +9,10 @@ def DFS(x,sum):
         return
     if sum == m: # 잔돈이랑 갯수가 맞으면
         if x<res: #갯수 비교 
-            res = x
+            res = x # 더 적은 경우로 update
     else:
         for i in range(n):
-            DFS(x+1,sum+coin[i])
+            DFS(x+1,sum+coin[i]) # 
     
 if __name__ == '__main__':
     n = int(input())
