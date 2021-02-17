@@ -8,6 +8,7 @@ def DFS(L,sum):
     if L==n and sum==f:
         for x in p:
             print(x,end=' ')
+        # 정답이 여러가지인 경우 최초로 발견된 수열 출력 후 프로그램 종료 
         sys.exit(0)
     else:
         for i in range(1,n+1):

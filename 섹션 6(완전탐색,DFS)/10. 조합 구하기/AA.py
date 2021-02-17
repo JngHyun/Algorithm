@@ -12,7 +12,6 @@ def DFS(x,s):
             res[x] = i
             DFS(x+1,i+1)
 
-
 if __name__=='__main__':
     n,m=map(int,input().split())
     cnt = 0
