@@ -16,9 +16,7 @@ def DFS(x,y):
                 ch[xx][yy]=1
                 DFS(xx,yy)
                 ch[xx][yy]=0
-
-    
-
+                
 if __name__ =='__main__':
     n = int(input())
     board = [list(map(int,input().split())) for _ in range(n)]
