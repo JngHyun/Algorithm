@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-sys.stdin = open('/Users/pjh/Desktop/박정현/python_algorithm/섹션 7(DFS,BFS 활용)/10. 미로탐색/in2.txt')
+sys.stdin = open('/Users/pjh/Desktop/박정현/python_algorithm/섹션 7(DFS,BFS 활용)/9. 미로의 최단거리/in2.txt')
 
 a = [list(map(int,input().split())) for _ in range(7)]
 
