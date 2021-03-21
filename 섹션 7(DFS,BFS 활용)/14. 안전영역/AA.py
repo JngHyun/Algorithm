@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('/Users/pjh/Desktop/박정현/python_algorithm/섹션 7(DFS,BFS 활용)/14. 안전영역/in5.txt')
 dx = [1,0,-1,0]
 dy = [0,1,0,-1]
-sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(10**6) #파이썬 재귀시 필요함
 def DFS(x,y,h):
     global cnt
     check[x][y] = 1
