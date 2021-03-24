@@ -23,4 +23,4 @@ if __name__ =='__main__':
     check = [[0]*10 for _ in range(10)]
     for y in range(10):
         if board[9][y]==2:
-            DFS(9,y)
+            DFS(9,y)1
