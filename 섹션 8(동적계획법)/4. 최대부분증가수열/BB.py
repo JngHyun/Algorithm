@@ -17,5 +17,5 @@ for i in range(2,n+1):
     dy[i] = max+1
     if dy[i] > res:
         res = dy[i]
-
+#max함수를 사용하지 않고 순간순간 비교해 훨씬 빠름
 print(res)
