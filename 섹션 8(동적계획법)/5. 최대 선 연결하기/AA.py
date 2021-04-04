@@ -13,7 +13,7 @@ for i in range(1,n+1):
         if num[j]<num[i] and left[j]>max:
             max = left[j]
         left[i] = max+1
-    if left[i] > res:›
+    if left[i] > res:
         res=left[i]
 
 print(res)
