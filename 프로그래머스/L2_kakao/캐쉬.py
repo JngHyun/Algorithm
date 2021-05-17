@@ -23,3 +23,20 @@ def solution(cacheSize, cities):
         answer += len(cities)*5
         
     return answer
+
+
+# deque maxlen = cacheSize 로 간단하게 코드를 짤 수 있음
+def solution(cacheSize, cities):
+    import collections
+    cache = collections.deque(maxlen=cacheSize)
+    time = 0
+    for i in cities:
+        s = i.lower()
+        if s in cache:
+            cache.remove(s) 
+            cache.append(s)
+            time += 1
+        else:
+            cache.append(s) #자동으로 밀려남
+            time += 5
+    return time
