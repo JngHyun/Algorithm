@@ -11,8 +11,18 @@ for s in String:
         sum += int(s)
     else:
         chars+=s
+    '''
+    if s.isalpha():
+        chars+=s
+        
+    else:
+        sum += int(s)
+    '''
+
     
 chars.sort()
+
+#숫자가 없는 경우도 꼭 체크해주어야 함
 if sum != 0:
     chars.append(str(sum))
 
