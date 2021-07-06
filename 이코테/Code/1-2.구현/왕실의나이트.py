@@ -7,7 +7,8 @@ row_idx=int(a[1])
 alphabet= [0,'a','b','c','d','e','f','g','h']
 col_idx = int(alphabet.index(col))
 
-
+#col_idx = int(ord(input_data[0])) - int(ord('a')) + 1
+# ord function
 
 dx = [-2,2,-2,2,-1,1,-1,1]
 dy = [-1,-1,1,1,-2,-2,2,2]
