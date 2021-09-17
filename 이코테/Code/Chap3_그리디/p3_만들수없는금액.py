@@ -6,7 +6,7 @@ sys.stdin = open('/Users/pjh/Desktop/박정현/python_algorithm/이코테/Code/1
 N개의 동전이 주어졌을 때 만들 수 없는 양의 정수 금액 중 최솟값 출력
 '''
 
-# 그리디 알고리즘을 많이 접했다면 익순한 문제
+# 그리디 알고리즘을 많이 접했다면 익숙한 문제
 # 아이디어는, 1~target-1금액을 모두 만들 수 있는지를 확인하하는 것이다.
 
 n = int(input())
