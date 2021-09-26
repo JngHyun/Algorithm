@@ -8,6 +8,7 @@ def solution(weights, head2head):
             win_rate.append(0)
         else:
             win_rate.append(round.count('W')/(len(round)))
+        
         heavy_count.append(len([w for i,w in enumerate(weights) if w > weights[idx] and h[i]=='W'] ))
         nums.append(idx+1)
 
