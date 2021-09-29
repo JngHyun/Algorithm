@@ -16,7 +16,4 @@ def solution(scoville, K):
         
         heapq.heappush(scoville,s1+(s2*2))
 
-
-        
-         
     return answer
