@@ -50,3 +50,4 @@ def solution(enter, leave):
                 break
 
     return answer
+
